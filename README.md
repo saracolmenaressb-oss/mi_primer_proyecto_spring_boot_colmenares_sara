@@ -15,17 +15,15 @@ Para desarrollar la aplicación se utilizó IntelliJ IDEA como entorno de desarr
 
 1. Se ingresó al sitio oficial de JetBrains: https://www.jetbrains.com/idea/download/ y se descargó el instalador correspondiente al sistema operativo Windows.
 
-
-
 2. Se ejecutó el archivo .exe descargado y se siguieron las instrucciones del asistente de instalación, seleccionando la opción Next para continuar.
-
-
 
 3. Se seleccionó la carpeta de instalación predeterminada. Posteriormente, en las opciones de instalación, se habilitó la creación de un acceso directo en el escritorio mediante la opción Create Desktop Shortcut.
 
 4. Finalmente, se completó el proceso de instalación seleccionando Finish.
 
 Con esta instalación se obtuvo el entorno necesario para crear y ejecutar el proyecto Java con Spring Boot.
+
+![alt text](<img/WhatsApp Image 2026-10-15 at 8.08.27 PM.jpeg>)
 
 ---
 ## Parte 1
@@ -34,12 +32,11 @@ Se creó un nuevo proyecto desde IntelliJ IDEA, seleccionando las opciones corre
 
 **New project**
 
-![alt text](image.png)
+![alt text](img/image.png)
 
+![alt text](img/image-1.png)
 
-![alt text](image-1.png)
-
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 
 Durante la configuración se definieron los datos iniciales del proyecto, incluyendo su nombre, el lenguaje de programación, la versión de Java y las opciones necesarias para generar la estructura base de la aplicación.
 
@@ -66,7 +63,7 @@ Esta revisión permitió diferenciar los archivos que se modifican durante el de
 
 Resultado obtenido: se reconoció la organización básica de un proyecto Spring Boot y la ubicación de los archivos necesarios para implementar las funcionalidades solicitadas.
 
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 
 ---
 ## Parte 3
@@ -81,11 +78,11 @@ Maven facilita la gestión de las dependencias, evitando la necesidad de descarg
 
 Resultado obtenido: se comprendió la función del archivo pom.xml en la administración de dependencias y en la configuración general del proyecto.
 
-![alt text](image-6.png)
+![alt text](img/image-6.png)
 
 Estas es la parte del archivo pom:
 
-![alt text](image-5.png)
+![alt text](img/image-5.png)
 
 ---
 ## Parte 4
@@ -114,13 +111,13 @@ La respuesta obtenida confirmó que el servidor procesó la solicitud y devolvi�
 
 Resultado obtenido: se implementó y verificó el primer endpoint REST, comprendiendo la relación entre un controlador, una ruta HTTP y la respuesta enviada al cliente.
 
-![alt text](image-8.png)
+![alt text](img/image-8.png)
 
-![alt text](image-7.png)
+![alt text](img/image-7.png)
 
-![alt text](image-9.png)
+![alt text](img/image-9.png)
 
-![alt text](image-10.png)
+![alt text](img/image-10.png)
 
 ---
 ## Parte 5
@@ -139,19 +136,19 @@ Para utilizar el servicio se aplicó el principio de inyección de dependencias 
 
 Este mecanismo reduce el acoplamiento entre las clases y facilita el mantenimiento y las pruebas de la aplicación.
 
-![alt text](image-11.png)
+![alt text](img/image-11.png)
 
 **Error**
 
-![alt text](image-12.png)
+![alt text](img/image-12.png)
 
 **Normal**
 
-![alt text](image-13.png)
+![alt text](img/image-13.png)
 
 **Saludo**
 
-![alt text](image-14.png)
+![alt text](img/image-14.png)
 
 ## Comprobación y análisis de errores
 
@@ -200,18 +197,21 @@ Después de guardar los cambios, se reinició la aplicación para verificar la n
 
 Resultado obtenido: se implementó una propiedad externa y se accedió a ella desde un controlador utilizando @Value. Esto permitió comprender la utilidad de separar los valores de configuración de la lógica de programación.
 
-![alt text](image-17.png)
+![alt text](img/image-17.png)
 
-![alt text](image-15.png)
- saludo
+![alt text](img/image-15.png)
+ 
+**Saludo**
 
-![alt text](image-16.png)
+![alt text](img/image-16.png)
 
-![alt text](image-19.png)
+![alt text](img/image-19.png)
 
 ---
-## Descargo postmarn
+## Instalación postmarn
 
-![ ](image-20.png)
+![alt text](img/image-20.png)
 
-![alt text](image-21.png)
+**Comprobacion**
+
+![alt text](img/image-21.png)
